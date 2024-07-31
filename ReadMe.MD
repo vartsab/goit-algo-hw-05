@@ -19,12 +19,12 @@ Time Complexity: O(n + m) on average; O(nm) in the worst case due to collisions.
 ## Substring Selection
 For Article 1:
 
-- Existing Substring: "жадібний алгоритм"
+- Existing Substring: "жадібний алгоритм" ("greedy algorithm")
 - Fictional Substring: "недійсний пошук" ("invalid search")
 
 For Article 2:
 
-- Existing Substring: "бінарні діаграми рішень" ("recommendation systems")
+- Existing Substring: "бінарні діаграми рішень" ("binary decision diagram")
 - Fictional Substring: "неіснуючий елемент" ("nonexistent element")
 
 ## Execution Time Measurement
