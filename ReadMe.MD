@@ -40,27 +40,27 @@ The fastest algorithm for each text is determined by comparing execution times f
 | Existing Substring | Boyer-Moore | Knuth-Morris-Pratt | Rabin-Karp |
 |--------------------|------------:|-------------------:|-----------:|
 |- Time | 0.004252 | 0.024397 | 0.035469 |
-|- Number of Iterations | 738 | 8524 | 8598 |
+|- Number of Iterations | 738 | 8,524 | 8,598 |
 
 |Fictional Substring | Boyer-Moore | Knuth-Morris-Pratt | Rabin-Karp |
 |--------------------|------------:|-------------------:|-----------:|
 |- Time | 0.0079 | 0.025491 | 0.061181 |
-|- Number of Iterations | 1197 | 12658 | 12749 |
+|- Number of Iterations | 1,197 | 12,658 | 12,749 |
 
-#### Results for article #1: The most efficient algorithm is Boyer-Moore with execution time of 0.004252 seconds.
+#### Results for article #1: The most efficient algorithm is Boyer-Moore with execution time of 0.004252 seconds and 738 iterations.
 
 ### Article #2:
 | Existing Substring | Boyer-Moore | Knuth-Morris-Pratt | Rabin-Karp |
 |--------------------|------------:|-------------------:|-----------:|
 |- Time | 0.003631 | 0.017025 | 0.0385 |
-|- Number of Iterations | 615 | 8677 | 8739 |
+|- Number of Iterations | 615 | 8,677 | 8,739 |
 
 |Fictional Substring | Boyer-Moore | Knuth-Morris-Pratt | Rabin-Karp |
 |--------------------|------------:|-------------------:|-----------:|
 |- Time | 0.008045 | 0.034102 | 0.086857 |
-|- Number of Iterations | 1435 | 18400 | 18568 |
+|- Number of Iterations | 1,435 | 18,400 | 18,568 |
 
-#### Results for article #2: The most efficient algorithm is Boyer-Moore with execution time of 0.003631 seconds.
+#### Results for article #2: The most efficient algorithm is Boyer-Moore with execution time of 0.003631 seconds and 615 iterations.
 
 ## Conclusions
 The Boyer-Moore algorithm proved to be the fastest for both real and fictional substrings in all cases. It showed the shortest execution time across the board.
